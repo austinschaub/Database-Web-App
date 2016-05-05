@@ -11,7 +11,7 @@
         <title>Update A Friend</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Update a Record:</h1>
         
         <div class="entireSalaryForm">
                     <form name="updateForm" action="updateCustomer" method="get">
@@ -63,7 +63,7 @@
                              <br>
                              
                              
-                        <input type="submit" name="submit" value="Submit"/>
+                        <input type="submit" name="submit" value="update"/>
                     </form>
         </div>
         
