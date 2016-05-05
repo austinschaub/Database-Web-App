@@ -15,19 +15,19 @@
                     <form name="addForm" action="addCustomer" method="get">
                         <label>First Name:</label>
                             <input type="text" name="firstName" required value=""/>
-                            <br>
+                            <br><br>
                         <label>Last Name:</label>
                             <input type="text" name="lastName" required value=""/>
-                            <br>
+                            <br><br>
                         <label>Address #1:</label>
                             <input type="text" name="addr1" required value=""/>
-                            <br>
+                            <br><br>
                         <label>Address #2:</label>
                             <input type="text" name="addr2" value=""/>
-                            <br>
+                            <br><br>
                         <label>City:</label>
                             <input type="text" name="city" required value=""/>
-                            <br>
+                            <br><br>
                         <label>State:</label>
                             <input type="text" name="states" required value=""/>
                             <br>
@@ -35,7 +35,7 @@
                         <label>Zip:</label>
                         <br>
                             <input type="text" name="zip" required value=""/>
-                            <br>
+                            <br><br>
                         <label>Email Address:</label>
                              <input type="text" name="emailAddr" required value=""/>
                              <br>

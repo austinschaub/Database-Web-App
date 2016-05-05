@@ -90,6 +90,7 @@ public class ReadQuery {
                     table += "<th>State</th>";
                     table += "<th>Zip</th>";
                     table += "<th>Email Address</th>";
+                    table += "<th>Options</th>";
                     table += "</tr>";
                     
         try {
@@ -142,6 +143,10 @@ public class ReadQuery {
                 
                 table += "<td>";
                 table += customer.getEmailAddr();
+                table += "</td>";
+                
+                table += "<td>";
+                table += "<a href=update?custID=" + customer.getCustID() + ">Update</a>" + "<a href=delete?custID=" + customer.getCustID()+ ">Delete</a>";
                 table += "</td>";
                 
                 
