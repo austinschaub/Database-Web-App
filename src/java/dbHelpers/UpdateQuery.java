@@ -1,5 +1,4 @@
-
-package controller;
+package dbHelpers;
 
 
 import java.io.IOException;
