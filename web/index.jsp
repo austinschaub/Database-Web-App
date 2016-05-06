@@ -13,5 +13,9 @@
                 <br><br>
       
                 
+         
+                <%@ include file = "includes/searchBar.jsp" %>
+                  
+              
     </body>
 </html>
