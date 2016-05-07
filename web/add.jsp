@@ -8,6 +8,13 @@
         
     </head>
     <body>
+        <div class = "wrap"> 
+            <%@ include file="includes/header.jsp" %>
+            <%@ include file = "includes/searchBar.jsp" %>
+            <br><br>
+            <%@ include file="includes/menu.jsp" %>
+            
+            
         <h1>Add A New Customer:</h1>
         
         
@@ -46,8 +53,8 @@
         </div>
         
         
-        
-        
-        
+        <br><br><br>
+        <%@ include file="includes/footer.jsp" %> 
+       </div> <!-- close wrap --> 
     </body>
 </html>

@@ -11,6 +11,12 @@
         <title>Update A Friend</title>
     </head>
     <body>
+         <div class = "wrap"> 
+           
+            <%@ include file="includes/header.jsp" %>
+            <%@ include file = "includes/searchBar.jsp" %>
+            <br><br>
+            <%@ include file="includes/menu.jsp" %>
         <h1>Update a Record:</h1>
         
         <div class="entireSalaryForm">
@@ -69,6 +75,8 @@
         
         
         
-        
+       
+      <%@ include file="includes/footer.jsp" %>   
+      </div> <!-- close wrap -->    
     </body>
 </html>

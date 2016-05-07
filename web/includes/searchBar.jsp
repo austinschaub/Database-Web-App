@@ -1,6 +1,6 @@
 <div class ="searchBar">
     <body>
-        <h3>Search Products</h3>        
+        <h3>Search Customer Database:</h3>        
         <form name="searchForm" action="search" method="get">           
             <input type="text" name="searchVal" value=""/> 
             <br>

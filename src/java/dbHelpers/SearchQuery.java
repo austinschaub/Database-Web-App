@@ -55,8 +55,7 @@ public class SearchQuery {
 
         
     }//end SearchQuery public method
-        
-    
+
     public void doSearch(String firstName) {
         
         
@@ -69,9 +68,7 @@ public class SearchQuery {
             Logger.getLogger(SearchQuery.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-        
-    
-    
+  
     public String getHTMLTable(){
             
             String table = "";

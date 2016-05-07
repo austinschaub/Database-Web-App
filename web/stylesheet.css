@@ -1,13 +1,13 @@
 
 body {
-    background-color: #D2B48C;
+    background-color: #EFEFEF;
 }
 table {
     width: 100%; 
 }
 
 
-.footer {width:100%; background-color:black;color:white;font-weight:bold;text-align:center;margin-right:0px;margin-left:0px; padding-top:2px; margin-top:2px;}
+.footer {width:100%; background-color:#A9A9A9;color:white;font-weight:bold;text-align:center;margin-right:0px;margin-left:0px; padding-top:2px; margin-top:2px;}
 
 .main {background-color:pink; text-align:left; padding:25px}
 
@@ -23,7 +23,7 @@ th {
 
 .entireSalaryForm {
     width: 30%;
-    background-color: whitesmoke;
+    background-color: #A9A9A9;
     color: black;
     padding-bottom: 40px;
     padding-top: auto;
@@ -33,19 +33,19 @@ th {
     margin-right: auto;
     border-style: solid;
     border-width: 20px;
-    border-color: black;
+    border-color: #FF3B3F;
 }
 
 h1 {
     font-size: 20pt;
     font-family: serif;
     text-align: left;
-    color: white;
+    color: #FF3B3F;
     text-align: center;
     border-style: solid;
     border-width: 5px;
     border-color: black;
-    background-color: #F08080;
+    background-color: #CAEBF2;
 }
 
 input {
@@ -57,7 +57,7 @@ tr:hover {
 
 }
 tr:nth-child(even) {
-    background-color: #F2F2F2;
+    background-color: #CAEBF2;
     color: black;
 }
 
@@ -75,7 +75,7 @@ tr {
         border: 8px solid red; 
         margin-top:25px;}
 
-.header {width:100%; background-color:blue;color:tan;margin-right:auto;margin-left:auto;
+.header {width:100%; background-color:#A9A9A9;color:tan;margin-right:auto;margin-left:auto;
          padding:1px;overflow:hidden;text-align: left;display: inline-block;height: 10%;}
 
 .headerImg {float:left;width:200px}
@@ -85,7 +85,7 @@ tr {
 
 /*http://css.maxdesign.com.au/listamatic/horizontal31.htm#*/
 
-.navcontainer{background-color: #1F00CA;border-top: solid 1px #FFFFFF;border-bottom: solid 1px #FFFFFF;}
+.navcontainer{background-color: #FF3B3F;border-top: solid 1px #FFFFFF;border-bottom: solid 1px #FFFFFF;}
 
 .navcontainer ul{font-family: Arial, Helvetica, sans-serif;font-weight: bold;color: white;text-align: center;
                  margin: 0;padding-bottom: 5px;padding-top: 5px;}
