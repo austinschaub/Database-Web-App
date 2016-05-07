@@ -27,17 +27,17 @@
                             <br><br>
                         
                         
-                        <label>First Name:</label>
+                        <label>First Name*:</label>
                             <input type="text" name="firstName" required value="<%=customer.getFirstName()%>"/>
                             <br><br>
                             
                             
-                        <label>Last Name:</label>
+                        <label>Last Name*:</label>
                             <input type="text" name="lastName" required value="<%=customer.getLastName()%>"/>
                             <br><br>
                             
                             
-                        <label>Address #1:</label>
+                        <label>Address #1*:</label>
                             <input type="text" name="addr1" required value="<%=customer.getAddr1()%>"/>
                             <br><br>
                             
@@ -47,27 +47,27 @@
                             <br><br>
                             
                             
-                        <label>City:</label>
+                        <label>City*:</label>
                             <input type="text" name="city" required value="<%=customer.getCity()%>"/>
                             <br><br>
                             
                             
-                        <label>State:</label>
+                        <label>State*:</label>
                             <input type="text" name="states" required value="<%=customer.getStates()%>"/>
                             <br>
                             <br>
                             
-                        <label>Zip:</label>
+                        <label>Zip*:</label>
                         <br>
                             <input type="text" name="zip" required value="<%=customer.getZip()%>"/>
                             <br><br>
                             
                             
-                        <label>Email Address:</label>
+                        <label>Email Address*:</label>
                              <input type="text" name="emailAddr" required value="<%=customer.getEmailAddr()%>"/>
                              <br>
                              <br>
-                             
+                             <p> * Denotes Required Field</p>
                              
                         <input type="submit" name="submit" value="update"/>
                     </form>

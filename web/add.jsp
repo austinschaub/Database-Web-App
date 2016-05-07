@@ -20,33 +20,35 @@
         
         <div class="entireSalaryForm">
                     <form name="addForm" action="addCustomer" method="get">
-                        <label>First Name:</label>
+                        <label>First Name*:</label>
                             <input type="text" name="firstName" required value=""/>
                             <br><br>
-                        <label>Last Name:</label>
+                        <label>Last Name*:</label>
                             <input type="text" name="lastName" required value=""/>
                             <br><br>
-                        <label>Address #1:</label>
+                        <label>Address #1*:</label>
                             <input type="text" name="addr1" required value=""/>
                             <br><br>
                         <label>Address #2:</label>
                             <input type="text" name="addr2" value=""/>
                             <br><br>
-                        <label>City:</label>
+                        <label>City*:</label>
                             <input type="text" name="city" required value=""/>
                             <br><br>
-                        <label>State:</label>
+                        <label>State*:</label>
                             <input type="text" name="states" required value=""/>
                             <br>
                             <br>
-                        <label>Zip:</label>
-                        <br>
+                        <label>Zip*:</label>
+                        
                             <input type="text" name="zip" required value=""/>
                             <br><br>
-                        <label>Email Address:</label>
+                        <label>Email Address*:</label>
                              <input type="text" name="emailAddr" required value=""/>
+                             <br><br><br>
+                             <p> * Denotes Required Field</p>
                              <br>
-                             <br>
+                         
                              
                         <input type="submit" name="submit" value="Submit"/>
                     </form>
